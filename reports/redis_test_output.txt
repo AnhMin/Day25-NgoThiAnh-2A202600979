@@ -1,0 +1,16 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\1212a\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\AILearning\Day25-NgoThiAnh-2A202600979
+configfile: pyproject.toml
+plugins: anyio-4.14.1, cov-7.1.0
+collecting ... collected 6 items
+
+tests/test_redis_cache.py::test_redis_connection PASSED                  [ 16%]
+tests/test_redis_cache.py::test_set_and_exact_get PASSED                 [ 33%]
+tests/test_redis_cache.py::test_ttl_expiry PASSED                        [ 50%]
+tests/test_redis_cache.py::test_shared_state_across_instances PASSED     [ 66%]
+tests/test_redis_cache.py::test_privacy_query_not_cached PASSED          [ 83%]
+tests/test_redis_cache.py::test_false_hit_different_years PASSED         [100%]
+
+============================== 6 passed in 1.86s ==============================
